@@ -1,0 +1,55 @@
+﻿@model VillaNumberVM
+@{
+    ViewData["title"] = "Create Villa";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="container my-5">
+    <div class="card p-4 shadow-lg">
+        <h1 class="text-center mb-4 text-secondary fw-bold">Update  Villa Number</h1>
+
+        <form asp-action="Update" method="post">
+
+            <input asp-for="VillaNumber.Villa_Number" hidden />
+
+            <div class="mb-3">
+                <label asp-for="VillaNumber.villaId" class="form-label fw-medium"></label>
+                <select asp-for="@Model.VillaNumber.villaId" asp-items="@Model.VillaList"
+                        class="form-select border shadow">
+                    <option value="" disabled> -- Select --</option>
+                </select>
+                <span asp-validation-for="VillaNumber.villaId" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="VillaNumber.SpecialDetails" class="form-label fw-medium"></label>
+                <input asp-for="VillaNumber.SpecialDetails" class="form-control rounded-3" placeholder="Special Details" />
+                <span asp-validation-for="VillaNumber.SpecialDetails" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="row g-2 justify-content-end">
+                <div class="col-6 col-md-3">
+                    <button type="submit" class="btn btn-primary w-100 rounded-3">
+                        <i class="bi bi-check-circle me-1"></i> Update Villa Number
+                    </button>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a asp-action="Index" asp-controller="VillaNumber" class="btn btn-secondary w-100 rounded-3">
+                        <i class="bi bi-x-circle me-1"></i> Cancel
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

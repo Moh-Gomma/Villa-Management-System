@@ -1,0 +1,138 @@
+﻿@model Hotel.Domain.Entities.Booking
+
+@{
+    ViewData["Title"] = "Finalize Booking";
+}
+
+<div class="container my-5">
+    <h1 class="text-center mb-4 fw-bold">Finalize Your Booking</h1>
+
+    <!-- Main Card Container -->
+    <div class="card shadow-lg border-0">
+        <div class="card-body p-4">
+            <!-- User Details Section -->
+            <div class="mb-4">
+                <h3 class="fw-semibold text-primary mb-3">Your Information</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" value="@($"{Model.FirstName}")" readonly>
+                            <label class="text-muted">Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" value="@Model.Email" readonly>
+                            <label class="text-muted">Email</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Villa and Booking Details Section -->
+            <div class="row g-0">
+                <!-- Villa Image -->
+                <div class="col-md-5">
+                    <img src="@Model.Villa.ImageUrl" class="img-fluid rounded-start h-100 object-fit-cover"
+                         alt="@Model.Villa.Name" onerror="this.src='https://placehold.co/600x400/EEE/31343C';">
+                </div>
+                <!-- Booking Details -->
+                <div class="col-md-7">
+                    <div class="card-body p-4">
+                        <h2 class="card-title fw-semibold text-primary">@Model.Villa.Name</h2>
+                        <p class="card-text text-muted">@Model.Villa.Description</p>
+
+                        <!-- Booking Info -->
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><i class="bi bi-calendar-check me-2"></i>Check-In Date</span>
+                                <strong>@Model.CheckInDate.ToString("MMMM dd, yyyy")</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><i class="bi bi-calendar-x me-2"></i>Check-Out Date</span>
+                                <strong>@Model.CheckOutDate.ToString("MMMM dd, yyyy")</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><i class="bi bi-moon me-2"></i>Nights</span>
+                                <strong>@Model.Nights</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><i class="bi bi-people me-2"></i>Occupancy</span>
+                                <strong>@Model.Villa.Occupancy</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><i class="bi bi-rulers me-2"></i>Square Footage</span>
+                                <strong>@Model.Villa.Sqft sqft</strong>
+                            </li>
+                        </ul>
+
+                        <!-- Amenities -->
+                        <h5 class="fw-semibold text-dark mb-2">Amenities</h5>
+                        <div class="d-flex flex-wrap gap-2 mb-3">
+                            @foreach (var amenity in Model.Villa.VillaAmenity)
+                            {
+                                <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill px-3 py-2">
+                                    @amenity.Name
+                                </span>
+                            }
+                        </div>
+
+                        <!-- Total Cost -->
+                        <div class="alert alert-info d-flex justify-content-between align-items-center">
+                            <span class="fw-semibold">Total Cost:</span>
+                            <h3 class="mb-0 text-info">$@(Model.Villa.Price * Model.Nights)</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form for Submission -->
+    <form asp-action="FinalizeBooking" method="post" class="mt-4">
+
+        <input type="hidden" asp-for="VillaId" />
+        <input type="hidden" asp-for="UserId" />
+        <input type="hidden" asp-for="CheckInDate" />
+        <input type="hidden" asp-for="Nights" />
+        <input type="hidden" asp-for="CheckOutDate" />
+        <input type="hidden" asp-for="FirstName" />
+        <input type="hidden" asp-for="LastName" />
+        <input type="hidden" asp-for="Email" />
+        <input type="hidden" asp-for="PhoneNumber" />
+
+        <!-- TempData Messages -->
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                @TempData["Error"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["Success"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <!-- Buttons -->
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" asp-controller="Home" class="btn btn-outline-secondary btn-lg">
+                <i class="bi bi-arrow-left me-2"></i>Back to Home
+            </a>
+            <button type="submit" class="btn btn-primary btn-lg">
+                Proceed to Payment <i class="bi bi-credit-card ms-2"></i>
+            </button>
+        </div>
+    </form>
+</div>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

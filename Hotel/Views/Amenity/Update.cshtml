@@ -1,0 +1,55 @@
+﻿@model AmenityVM
+@{
+    ViewData["title"] = "Update Amenity";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="container my-5">
+    <div class="card p-4 shadow-lg border-0">
+        <h1 class="text-center mb-4 text-info fw-bold">Update Amenity</h1>
+
+        <form asp-action="Update" method="post" class="needs-validation" novalidate>
+            <input asp-for="Amenity.Id" hidden />
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Amenity.Name" class="form-control rounded-3" placeholder="Amenity Name" required />
+                        <label asp-for="Amenity.Name" class="text-muted">Amenity Name</label>
+                        <span asp-validation-for="Amenity.Name" class="text-danger small mt-1 d-block"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <select asp-for="Amenity.VillaId" asp-items="@Model.VillaList" class="form-select rounded-3" required>
+                            <option value="" disabled>-- Select Villa --</option>
+                        </select>
+                        <label asp-for="Amenity.VillaId" class="text-muted">Villa</label>
+                        <span asp-validation-for="Amenity.VillaId" class="text-danger small mt-1 d-block"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <textarea asp-for="Amenity.Description" class="form-control rounded-3" placeholder="Description" rows="4"></textarea>
+                <label asp-for="Amenity.Description" class="text-muted">Description (Optional)</label>
+                <span asp-validation-for="Amenity.Description" class="text-danger small mt-1 d-block"></span>
+            </div>
+
+            <div class="d-flex justify-content-end gap-3">
+                <button type="submit" class="btn btn-info text-white rounded-pill px-4">
+                    <i class="bi bi-check-circle me-2"></i>Update Amenity
+                </button>
+                <a asp-action="Index" asp-controller="Amenity" class="btn btn-outline-secondary rounded-pill px-4">
+                    <i class="bi bi-x-circle me-2"></i>Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

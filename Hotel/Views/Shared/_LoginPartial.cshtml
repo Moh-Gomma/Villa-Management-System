@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        var user = await UserManager.GetUserAsync(User);
+        var displayName = user != null ? $"{user.FirstName} {user.LastName}" : UserManager.GetUserName(User);
+
+        <li class="nav-item">
+            <a class="nav-link text-white">Hello @displayName!</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-action="Setting" asp-controller="Account">
+                <i class="bi bi-gear"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <form asp-controller="Account" asp-action="LogOut" method="post" class="d-inline">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="nav-link btn btn-danger text-white logout-btn" style="padding: 0.25rem 0.75rem;">
+                    <i class="bi bi-box-arrow-right"></i> Log Out
+                </button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-action="Login" asp-controller="Account">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-action="Register" asp-controller="Account">Register</a>
+        </li>
+    }
+</ul>

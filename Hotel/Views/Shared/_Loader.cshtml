@@ -1,0 +1,55 @@
+﻿<div id="loader" class="loader-container d-none">
+    <div class="loader-spinner"></div>
+    <p class="loader-text">Fetching available villas...</p>
+</div>
+
+<style>
+    /* Loader Styles */
+    .loader-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+    }
+
+    .loader-spinner {
+        width: 4rem;
+        height: 4rem;
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #007bff;
+        border-radius: 50%;
+        animation: spin 1s ease-in-out infinite;
+    }
+
+    @@keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .loader-text {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: #6c757d;
+        animation: pulse 1.5s infinite;
+    }
+
+    @@keyframes pulse {
+        0% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+</style>

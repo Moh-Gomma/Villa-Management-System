@@ -1,0 +1,133 @@
+﻿@model HomeVM
+
+
+@foreach (var villa in Model.VillaList)
+{
+    <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm border-0">
+            <img src="@(string.IsNullOrEmpty(villa.ImageUrl) ? "https://placehold.co/400x300/EEE/31343C" : villa.ImageUrl)"
+                 class="card-img-top rounded-top" alt="@villa.Name" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+                <h5 class="card-title text-primary fw-bold">@villa.Name</h5>
+                <p class="card-text text-muted">@villa.Description?.Substring(0, Math.Min(villa.Description.Length, 100))@(villa.Description?.Length > 100 ? "..." : "")</p>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-rulers me-2"></i>@villa.Sqft sqft</li>
+                    <li><i class="bi bi-person me-2"></i>@villa.Occupancy guests</li>
+                    <li><i class="bi bi-currency-dollar me-2"></i>@villa.Price.ToString("F2") per night</li>
+                </ul>
+                @if (villa.VillaAmenity != null && villa.VillaAmenity.Any())
+                {
+                    <h6 class="mt-3 fw-bold text-muted">Amenities:</h6>
+                    <ul class="list-inline">
+                        @foreach (var amenity in villa.VillaAmenity.Take(3))
+                        {
+                            <li class="list-inline-item">
+                                <span class="badge bg-primary-subtle text-primary rounded-pill">@amenity.Name</span>
+                            </li>
+                        }
+                        @if (villa.VillaAmenity.Count() > 3)
+                        {
+                            <li class="list-inline-item">
+                                <span class="badge bg-primary-subtle text-primary rounded-pill">+@(villa.VillaAmenity.Count() - 3) more</span>
+                            </li>
+                        }
+                    </ul>
+                }
+            </div>
+            <div class="card-footer bg-transparent border-0 d-flex gap-2">
+                <button type="button" class="btn btn-outline-primary rounded-pill w-50" data-bs-toggle="modal" data-bs-target="#detailsModal-@villa.Id">
+                    <i class="bi bi-eye me-2"></i>Details
+                </button>
+                @if (Model.IsAvailabilityChecked && Model.CheckInDate >= DateTime.Now) // Added condition
+                {
+                    if (villa.IsAvailable)
+                    {
+                        <a asp-action="FinalizeBooking"
+                           asp-controller="Booking"
+                           asp-route-villaId="@villa.Id"
+                           asp-route-checkInDate="@Model.CheckInDate.ToString("yyyy-MM-dd")"
+                           asp-route-nights="@Model.Nights"
+                           class="btn btn-success rounded-pill w-50"
+                           data-villa-id="@villa.Id">
+                            <i class="bi bi-bookmark me-2"></i>Book
+                        </a>
+                    }
+                    else
+                    {
+                        <button type="button" disabled class="btn btn-outline-danger rounded-pill w-50" data-villa-id="@villa.Id">
+                            <i class="bi bi-info-circle"></i>Not Available
+                        </button>
+                    }
+                }
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="detailsModal-@villa.Id" tabindex="-1" aria-labelledby="detailsModalLabel-@villa.Id" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="detailsModalLabel-@villa.Id">@villa.Name</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="@(string.IsNullOrEmpty(villa.ImageUrl) ? "https://placehold.co/400x300/EEE/31343C" : villa.ImageUrl)"
+                                     class="img-fluid rounded" alt="@villa.Name" style="max-height: 300px; object-fit: cover;" />
+                            </div>
+                            <div class="col-md-6">
+                                <dl>
+                                    <dt>Square Footage</dt>
+                                    <dd>@villa.Sqft sqft</dd>
+                                    <dt>Occupancy</dt>
+                                    <dd>@villa.Occupancy guests</dd>
+                                    <dt>Price per Night</dt>
+                                    <dd>@villa.Price.ToString("F2")</dd>
+                                    <dt>Description</dt>
+                                    <dd>@(string.IsNullOrEmpty(villa.Description) ? "No description available" : villa.Description)</dd>
+                                    @if (villa.VillaAmenity != null && villa.VillaAmenity.Any())
+                                    {
+                                        <dt>Amenities</dt>
+                                        <dd>
+                                            <ul class="list-unstyled">
+                                                @foreach (var amenity in villa.VillaAmenity)
+                                                {
+                                                    <li>@amenity.Name</li>
+                                                }
+                                            </ul>
+                                        </dd>
+                                    }
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        @if (Model.IsAvailabilityChecked && Model.CheckInDate >= DateTime.Now) // Added condition
+                        {
+                            if (villa.IsAvailable)
+                            {
+                                <a asp-action="FinalizeBooking"
+                                   asp-controller="Booking"
+                                   asp-route-villaId="@villa.Id"
+                                   asp-route-checkInDate="@Model.CheckInDate.ToString("yyyy-MM-dd")"
+                                   asp-route-nights="@Model.Nights"
+                                   class="btn btn-success"
+                                   data-villa-id="@villa.Id">
+                                    <i class="bi bi-bookmark me-2"></i>Book
+                                </a>
+                            }
+                            else
+                            {
+                                <button type="button" disabled class="btn btn-outline-danger" data-villa-id="@villa.Id">
+                                    Not Available
+                                </button>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

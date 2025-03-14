@@ -1,0 +1,52 @@
+﻿@model IEnumerable<VillaNumber>
+@{
+    ViewData["title"] = "Villa Numbers List ";
+    Layout = "_AdminLayout";
+
+}
+
+<div class="mb-4">
+    <h3 class="text-center"> List Of Villa </h3>
+    <a asp-action="Create" asp-controller="VillaNumber" class="btn btn-secondary">
+        <i class="bi bi-patch-plus"></i>
+        New Villa
+    </a>
+</div>
+
+
+<table class="table table-striped table-bordered table-hover">
+
+    <thead>
+        <tr class="text-center">
+            <th scope="col">Name</th>
+            <th scope="col">Villa Number</th>
+            <th scope="col">Special Details</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        @foreach (var obj in Model)
+        {
+            <tr class="text-center ">
+                <td>@obj.villa.Name</td>
+                <td>@obj.Villa_Number</td>
+                <td>@obj.SpecialDetails</td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-action="Update" asp-controller="VillaNumber" asp-route-id="@obj.Villa_Number"
+                           class="btn btn-info btn-sm mx-2">
+                            <i class="bi bi-pencil-square"></i>
+                            Update
+                        </a>
+
+                        <a asp-action="Delete" asp-controller="VillaNumber" asp-route-id="@obj.Villa_Number"
+                           class="btn btn-danger btn-sm mx-2">
+                            <i class="bi bi-trash-fill"></i>
+                            Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

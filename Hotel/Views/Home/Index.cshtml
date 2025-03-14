@@ -1,0 +1,81 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Welcome to Our Villas";
+}
+
+<!-- Carousel Slider (unchanged) -->
+<div class="container-fluid p-0 mb-5">
+    <div id="villaCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-wrap="true" data-bs-interval="5000">
+        <!-- ... (carousel content remains the same) -->
+    </div>
+</div>
+
+<!-- Check-in/Check-out Form -->
+<div class="container mb-5">
+    <div class="card shadow-lg border-0 p-4">
+        <h3 class="text-center text-primary fw-bold mb-4">Plan Your Stay</h3>
+        <form asp-action="GetVillaById"
+              method="post" class="row g-3"
+              data-ajax-method="post"
+              data-ajax="true"
+              data-ajax-mode="replace"
+              data-ajax-update="#VillaListPView"
+              data-ajax-begin="showLoader('#VillaListPView')"
+              data-ajax-complete="hideLoader('#VillaListPView')"
+              data-ajax-failure="onAjaxFailure">
+            <div class="col-md-4">
+                <div class="form-floating">
+                    <input asp-for="CheckInDate" type="date" class="form-control rounded-3 border-primary-subtle"
+                           min="@DateTime.Now.ToString("yyyy-MM-dd")"
+                           value="@Model.CheckInDate.ToString("yyyy-MM-dd")" required />
+                    <label asp-for="CheckInDate" class="text-muted">Check-in Date</label>
+                    <span asp-validation-for="CheckInDate" class="text-danger small mt-1 d-block"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-floating">
+                    <input asp-for="Nights" type="number" class="form-control rounded-3 border-primary-subtle"
+                           min="1" max="30" value="@Model.Nights" required />
+                    <label asp-for="Nights" class="text-muted">Nights</label>
+                    <span asp-validation-for="Nights" class="text-danger small mt-1 d-block"></span>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill w-100 py-2">
+                    <i class="bi bi-search me-2"></i>Check Availability
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Villa List with Amenities -->
+<div class="container mb-5">
+    <h2 class="text-center text-primary fw-bold mb-4 display-6">Our Villas</h2>
+    @* Loader *@
+    <partial name="_Loader" />
+    @if (!Model.VillaList.Any())
+    {
+        <div class="text-center text-muted py-3">
+            <p>No villas available at this time.</p>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4" id="VillaListPView">
+            <partial name="_VillaListHome" model="Model" />
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <partial name="_LoaderScripts" />
+    <script>
+        function onAjaxFailure(xhr, status, error) {
+            alert('Error loading villa list: ' + error);
+        }
+    </script>
+}

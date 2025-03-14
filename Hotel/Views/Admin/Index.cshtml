@@ -1,0 +1,167 @@
+﻿@model AdminDashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Header -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="h2 text-dark fw-bold">
+                <i class="bi bi-speedometer2 me-2"></i> Admin Dashboard
+            </h1>
+            <p class="text-muted">Welcome to the Villa Admin Page. Monitor key metrics and manage your resources efficiently.</p>
+        </div>
+    </div>
+
+    <!-- Metrics Cards -->
+    <div class="row mb-4">
+        <!-- Total Bookings -->
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h6 class="text-muted mb-1">Total Bookings</h6>
+                            <h3 class="fw-bold mb-0">@Model.TotalBaoking</h3>
+                        </div>
+                        <div class="ms-3">
+                            <i class="bi bi-ticket-detailed text-primary" style="font-size: 2.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Revenue -->
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h6 class="text-muted mb-1">Total Revenue</h6>
+                            <h3 class="fw-bold mb-0">$@Model.TotalRevenue.ToString("F2")</h3>
+                        </div>
+                        <div class="ms-3">
+                            <i class="bi bi-currency-dollar text-success" style="font-size: 2.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pending Bookings -->
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h6 class="text-muted mb-1">Pending Bookings</h6>
+                            <h3 class="fw-bold mb-0">@Model.PendingBookings</h3>
+                        </div>
+                        <div class="ms-3">
+                            <i class="bi bi-hourglass-split text-warning" style="font-size: 2.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Confirmed Bookings -->
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h6 class="text-muted mb-1">Confirmed Bookings</h6>
+                            <h3 class="fw-bold mb-0">@Model.ConfirmedBookings</h3>
+                        </div>
+                        <div class="ms-3">
+                            <i class="bi bi-check-circle text-success" style="font-size: 2.5rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking Trends Chart -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title text-dark fw-bold">Booking Trends (Last 6 Months)</h5>
+                    <canvas id="bookingTrendsChart" height="100"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="row">
+        <div class="col-12">
+            <h5 class="text-dark fw-bold mb-3">Quick Links</h5>
+            <div class="d-flex flex-wrap gap-3">
+                <a asp-controller="Villa" asp-action="Index" class="btn btn-primary">
+                    <i class="bi bi-house-door me-2"></i> Manage Villas
+                </a>
+                <a asp-controller="VillaNumber" asp-action="Index" class="btn btn-primary">
+                    <i class="bi bi-door-open me-2"></i> Manage Villa Numbers
+                </a>
+                <a asp-controller="Amenity" asp-action="Index" class="btn btn-primary">
+                    <i class="bi bi-gear me-2"></i> Manage Amenities
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Booking Trends Chart
+        document.addEventListener('DOMContentLoaded', function () {
+            const ctx = document.getElementById('bookingTrendsChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(Model.BookingTrendLabels)),
+                    datasets: [{
+                        label: 'Bookings',
+                        data: @Html.Raw(Json.Serialize(Model.BookingTrends)),
+                        borderColor: '#007bff',
+                        backgroundColor: 'rgba(0, 123, 255, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Number of Bookings'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Month'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

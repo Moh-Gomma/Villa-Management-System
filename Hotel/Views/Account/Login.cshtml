@@ -1,0 +1,69 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/LoginForm.css" asp-append-version="true" />
+}
+
+<div class="auth-container">
+    <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="text-center mb-4">
+                    <img src="~/images/Logo.jpg" alt="Hotel Logo" class="auth-logo" width="80" />
+                    <h1 class="text-primary fw-bold mt-2">Welcome Back</h1>
+                </div>
+                <div class="card auth-card p-4 p-md-5">
+                    <h2 class="text-center mb-4 text-primary fw-bold">Sign In</h2>
+                    <form asp-action="Login" method="post">
+                        @Html.AntiForgeryToken()
+                        <input asp-for="RedirectUrl" hidden />
+
+                        <!-- Email -->
+                        <div class="mb-4 position-relative">
+                            <label asp-for="Email" class="form-label fw-medium">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0"><i class="bi bi-envelope text-muted"></i></span>
+                                <input asp-for="Email" class="form-control rounded-end" placeholder="Enter your email" required />
+                            </div>
+                            <span asp-validation-for="Email" class="text-danger small mt-1 d-block"></span>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="mb-4 position-relative">
+                            <label asp-for="Password" class="form-label fw-medium">Password</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light border-end-0"><i class="bi bi-lock text-muted"></i></span>
+                                <input asp-for="Password" type="password" class="form-control rounded-end" placeholder="Enter your password" required />
+                            </div>
+                            <span asp-validation-for="Password" class="text-danger small mt-1 d-block"></span>
+                        </div>
+
+                        <!-- Remember Me -->
+                        <div class="mb-4 form-check">
+                            <input asp-for="RememberMe" class="form-check-input" />
+                            <label asp-for="RememberMe" class="form-check-label">Remember Me</label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary w-100 py-2 mb-3 fw-bold">Sign In</button>
+
+                        <!-- Links -->
+                        <div class="text-center">
+                            <p class="mb-2">
+                                <a asp-action="ForgotPassword" asp-controller="Account" class="text-primary text-decoration-none fw-medium">Forgot Password?</a>
+                            </p>
+                            <p class="mb-0">Don't have an account? <a asp-action="Register" asp-controller="Account" class="text-primary text-decoration-none fw-medium" asp-route-returnUrl="@Model.RedirectUrl">Register</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

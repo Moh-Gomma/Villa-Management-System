@@ -1,0 +1,73 @@
+﻿@model Villa
+@{
+    ViewData["title"] = "Delete Villa";
+    Layout = "_AdminLayout";
+
+}
+
+
+<div class="container my-5">
+    <div class="card p-4 shadow-lg">
+        <h1 class="text-center mb-4 text-danger fw-bold">Are you sure you want to Delete this ?</h1>
+
+        <form asp-action="Delete" method="post">
+
+            <input hidden asp-for="Id" />
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label fw-medium">Villa Name</label>
+                <input asp-for="Name" disabled class="form-control rounded-3" placeholder="e.g., Sunset Haven" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-medium">Description</label>
+                <textarea asp-for="Description" disabled class="form-control rounded-3" rows="4" placeholder="Describe the villa..."></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label fw-medium">Price</label>
+                <input asp-for="Price" disabled type="number" step="0.5" min="1" class="form-control rounded-3" placeholder="Choose a Price .." />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Occupancy" class="form-label fw-medium">Occupancy</label>
+                <input asp-for="Occupancy" disabled type="number" class="form-control rounded-3" placeholder="Enter an Occupancy .." />
+                <span asp-validation-for="Occupancy" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Sqft" class="form-label fw-medium"></label>
+                <input asp-for="Sqft" disabled class="form-control rounded-3" />
+                <span asp-validation-for="Sqft" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="ImageUrl" class="form-label fw-medium">Image URL</label>
+                <input asp-for="ImageUrl" disabled class="form-control rounded-3" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+
+            <div class="row g-2 justify-content-end">
+                <div class="col-6 col-md-3">
+                    <button type="submit"  class="btn btn-danger w-100 rounded-3">
+                        <i class="bi bi-check-circle me-1"></i> Delete Villa
+                    </button>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a asp-action="Index" asp-controller="Villa" class="btn btn-secondary w-100 rounded-3">
+                        <i class="bi bi-x-circle me-1"></i> Cancel
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
