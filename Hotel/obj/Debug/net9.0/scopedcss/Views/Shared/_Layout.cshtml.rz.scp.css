@@ -1,0 +1,92 @@
+/* site.css */
+
+/* Reset default margins and padding */
+*[b-t1x273ueqa] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Brand */
+a.navbar-brand[b-t1x273ueqa] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+/* Links */
+a[b-t1x273ueqa] {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+    a:hover[b-t1x273ueqa] {
+        color: #0056b3;
+    }
+
+/* Buttons */
+.btn-primary[b-t1x273ueqa] {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+    .btn-primary:hover[b-t1x273ueqa] {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+
+/* Nav Pills */
+.nav-pills .nav-link.active[b-t1x273ueqa],
+.nav-pills .show > .nav-link[b-t1x273ueqa] {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Borders */
+.border-top[b-t1x273ueqa] {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-t1x273ueqa] {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Box Shadow */
+.box-shadow[b-t1x273ueqa] {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+/* Accept Policy Button */
+button.accept-policy[b-t1x273ueqa] {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Toastr Overrides (Optional) */
+#toast-container > .toast-success[b-t1x273ueqa] {
+    background-color: #28a745 !important;
+}
+
+#toast-container > .toast-error[b-t1x273ueqa] {
+    background-color: #dc3545 !important;
+}
+
+#toast-container > .toast-info[b-t1x273ueqa] {
+    background-color: #17a2b8 !important;
+}
+
+#toast-container > .toast-warning[b-t1x273ueqa] {
+    background-color: #ffc107 !important;
+}
+
+/* Ensure Toastr text is readable */
+#toast-container > .toast[b-t1x273ueqa] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
