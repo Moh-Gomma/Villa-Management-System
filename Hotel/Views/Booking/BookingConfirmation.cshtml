@@ -1,10 +1,10 @@
 ﻿@using Hotel.Application.Utility
-@model int
+@model Hotel.Domain.Entities.Booking
 @inject Hotel.Application.Common.Interfaces.IUnitOfWork UnitOfWork
 
 @{
     ViewData["Title"] = "Booking Confirmation";
-    var booking = UnitOfWork.Booking.Get(b => b.Id == Model, includeProperties: "Villa,User");
+    var booking = Model ?? UnitOfWork.Booking.Get(b => b.Id == (ViewContext.RouteData.Values["bookingId"] as int? ?? 0), includeProperties: "Villa,User");
 }
 
 <div class="container my-5">
@@ -12,7 +12,7 @@
     {
         <div class="alert alert-danger text-center mt-5">
             <h4>Booking Not Found</h4>
-            <p>The booking with ID #@Model could not be found. Please try again or contact support.</p>
+            <p>The booking with ID #@(ViewContext.RouteData.Values["bookingId"] as int? ?? 0) could not be found. Please try again or contact support.</p>
             <a asp-action="Index" asp-controller="Home" class="btn btn-outline-secondary">Back to Home</a>
         </div>
     }
@@ -94,6 +94,9 @@
                     <a asp-action="Index" asp-controller="Home" class="btn btn-outline-secondary btn-lg rounded-pill px-4">
                         <i class="bi bi-house-door me-2"></i>Back to Home
                     </a>
+                    <a asp-action="BookingHistory" asp-controller="Booking" class="btn btn-primary btn-lg rounded-pill px-4">
+                        <i class="bi bi-clock-history me-2"></i>View Booking History
+                    </a>
                     @if (booking.status == SD.StatusPending)
                     {
                         <a asp-action="FinalizeBooking" asp-controller="Booking" asp-route-villaId="@booking.VillaId" asp-route-checkInDate="@booking.CheckInDate.ToString("yyyy-MM-dd")" asp-route-nights="@booking.Nights"
@@ -125,7 +128,6 @@
 
 @section Scripts {
     <script>
-        // Optional: Add a subtle animation for the card
         document.addEventListener('DOMContentLoaded', function () {
             const card = document.querySelector('.card');
             if (card) {

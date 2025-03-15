@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cqfEBwLJZZu4wkAlGkA4zivESoWKuf9OtaeQUR33vKQ=",
+  "Hash": "VCEk3nX4lhOTBHhjFzA/mWVqo0aKcWCW61ampEVlMRY=",
   "Source": "Hotel.Web",
   "BasePath": "_content/Hotel.Web",
   "Mode": "Default",
@@ -3671,25 +3671,25 @@
       "OriginalItemSpec": "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uq6zc7574l-61n19gt1b8.gz",
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uyjybdlkck-e5vtblw8hn.gz",
       "SourceId": "Hotel.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Hotel.Web",
-      "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "RelativePath": "Images/Favicon/favicon#[.{fingerprint=e5vtblw8hn}]?.ico.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\favicon.ico",
+      "RelatedAsset": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lir1p715ud",
-      "Integrity": "jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=",
+      "Fingerprint": "r436hdhc2g",
+      "Integrity": "W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\v0zgfp0y55-87fc7y1x7t.gz",
@@ -4364,27 +4364,6 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\favicon.ico",
-      "SourceId": "Hotel.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
-      "BasePath": "_content/Hotel.Web",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
       "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\6325257.jpg",
       "SourceId": "Hotel.Web",
       "SourceType": "Discovered",
@@ -4427,6 +4406,90 @@
       "OriginalItemSpec": "wwwroot\\Images\\Animation.gif"
     },
     {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-192x192.png",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/Favicon/android-chrome-192x192#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "twt8ct8con",
+      "Integrity": "benlxdLV/MJUslqiPYM52aW2RdzIyCLAMzhoj9qj+78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Favicon\\android-chrome-192x192.png"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-512x512.png",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/Favicon/android-chrome-512x512#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z40f72xngs",
+      "Integrity": "cy3cJvUXOpALP1MzIhfOHg2F02gTG7CPea8XGPYNz9s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Favicon\\android-chrome-512x512.png"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\apple-touch-icon.png",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/Favicon/apple-touch-icon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mn45vmgd8s",
+      "Integrity": "LoIVs9yx302vlxur/jWDEBvZmR/HvsmQirJN1br4Cv8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Favicon\\apple-touch-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/Favicon/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5vtblw8hn",
+      "Integrity": "Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Favicon\\favicon.ico"
+    },
+    {
       "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Logo.jpg",
       "SourceId": "Hotel.Web",
       "SourceType": "Discovered",
@@ -4467,6 +4530,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\003615d7-ddf2-4a05-9313-d7c3376d40a4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/RoomImages/Villa/139ee75e-2796-466f-9751-13b4aeb98702#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "38w6oqc8la",
+      "Integrity": "o2g00SIpuNEkqgOeJ2zShhpltPkZPdun/kZBE1uVPUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg"
     },
     {
       "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\18ef6915-856a-40e3-b811-9c6ecc86af8d.jpg",
@@ -4595,6 +4679,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\4b87bb5b-ecff-4ecd-8812-9c19e99373fa.jpg"
     },
     {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/RoomImages/Villa/5b5b204d-027c-4fe4-b645-dca7ee81fef0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lh630ntxpr",
+      "Integrity": "mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg"
+    },
+    {
       "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg",
       "SourceId": "Hotel.Web",
       "SourceType": "Discovered",
@@ -4635,6 +4740,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\6f060067-1c4b-4c88-b819-e40d61f2a92e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/RoomImages/Villa/7b2d8743-96b5-49cb-8c20-7c5433c4fadf#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j16spjs15h",
+      "Integrity": "l/LbAXiKiRsre3mtszIicPyfEYyjM6jyurVGabW1aUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg",
+      "SourceId": "Hotel.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\",
+      "BasePath": "_content/Hotel.Web",
+      "RelativePath": "Images/RoomImages/Villa/7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lh630ntxpr",
+      "Integrity": "mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg"
     },
     {
       "Identity": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\95cc2198-8d7f-42c5-b694-8c6d5dac794e.jpg",
@@ -8379,167 +8526,6 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uq6zc7574l-61n19gt1b8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000411015208"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2432"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uq6zc7574l-61n19gt1b8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2432"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
-        }
-      ]
-    },
-    {
       "Route": "favicon.ico",
       "AssetFile": "C:\\Users\\moham\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.0\\staticwebassets\\favicon.ico",
       "Selectors": [],
@@ -8577,143 +8563,6 @@
       ]
     },
     {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uq6zc7574l-61n19gt1b8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000411015208"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2432"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uq6zc7574l-61n19gt1b8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2432"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:23:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
-        }
-      ]
-    },
-    {
       "Route": "Hotel.Web.9xyj8gb8ju.bundle.scp.css",
       "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\yszupgbm8v-9xyj8gb8ju.gz",
       "Selectors": [
@@ -8738,7 +8587,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8799,7 +8648,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8844,7 +8693,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8899,7 +8748,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8960,7 +8809,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9005,7 +8854,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9060,7 +8909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9113,7 +8962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9150,7 +8999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9197,7 +9046,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9250,7 +9099,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9287,7 +9136,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 21:26:01 GMT"
+          "Value": "Sat, 15 Mar 2025 01:43:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18005,6 +17854,550 @@
       ]
     },
     {
+      "Route": "Images/Favicon/android-chrome-192x192.png",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-192x192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"benlxdLV/MJUslqiPYM52aW2RdzIyCLAMzhoj9qj+78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-benlxdLV/MJUslqiPYM52aW2RdzIyCLAMzhoj9qj+78="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/android-chrome-192x192.twt8ct8con.png",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-192x192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"benlxdLV/MJUslqiPYM52aW2RdzIyCLAMzhoj9qj+78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "twt8ct8con"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Favicon/android-chrome-192x192.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-benlxdLV/MJUslqiPYM52aW2RdzIyCLAMzhoj9qj+78="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/android-chrome-512x512.png",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-512x512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cy3cJvUXOpALP1MzIhfOHg2F02gTG7CPea8XGPYNz9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cy3cJvUXOpALP1MzIhfOHg2F02gTG7CPea8XGPYNz9s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/android-chrome-512x512.z40f72xngs.png",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-512x512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "302281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cy3cJvUXOpALP1MzIhfOHg2F02gTG7CPea8XGPYNz9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z40f72xngs"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Favicon/android-chrome-512x512.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cy3cJvUXOpALP1MzIhfOHg2F02gTG7CPea8XGPYNz9s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/apple-touch-icon.mn45vmgd8s.png",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\apple-touch-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LoIVs9yx302vlxur/jWDEBvZmR/HvsmQirJN1br4Cv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mn45vmgd8s"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Favicon/apple-touch-icon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LoIVs9yx302vlxur/jWDEBvZmR/HvsmQirJN1br4Cv8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/apple-touch-icon.png",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\apple-touch-icon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LoIVs9yx302vlxur/jWDEBvZmR/HvsmQirJN1br4Cv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LoIVs9yx302vlxur/jWDEBvZmR/HvsmQirJN1br4Cv8="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/favicon.e5vtblw8hn.ico",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uyjybdlkck-e5vtblw8hn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000145730108"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6861"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5vtblw8hn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Favicon/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/favicon.e5vtblw8hn.ico",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5vtblw8hn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Favicon/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/favicon.e5vtblw8hn.ico.gz",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uyjybdlkck-e5vtblw8hn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5vtblw8hn"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Favicon/favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/favicon.ico",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uyjybdlkck-e5vtblw8hn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000145730108"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6861"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/favicon.ico",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dl6Alau//RfOfqmOfeWyDerYFYONidTPnI3Qlid/bVc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Favicon/favicon.ico.gz",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Debug\\net9.0\\compressed\\uyjybdlkck-e5vtblw8hn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 13:34:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W2pvsKtzS2s4oD2+RfFP/MLHibxpONbJmdsAqU48InA="
+        }
+      ]
+    },
+    {
       "Route": "Images/Logo.jpg",
       "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Logo.jpg",
       "Selectors": [],
@@ -18165,6 +18558,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-kxg1KZAUQt1HAnsUnf/Z8iy/5aUeSbLvHbGZGijQnxQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/139ee75e-2796-466f-9751-13b4aeb98702.38w6oqc8la.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1943718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2g00SIpuNEkqgOeJ2zShhpltPkZPdun/kZBE1uVPUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 14:24:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38w6oqc8la"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RoomImages/Villa/139ee75e-2796-466f-9751-13b4aeb98702.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2g00SIpuNEkqgOeJ2zShhpltPkZPdun/kZBE1uVPUE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/139ee75e-2796-466f-9751-13b4aeb98702.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1943718"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2g00SIpuNEkqgOeJ2zShhpltPkZPdun/kZBE1uVPUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 14:24:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2g00SIpuNEkqgOeJ2zShhpltPkZPdun/kZBE1uVPUE="
         }
       ]
     },
@@ -18661,6 +19136,88 @@
       ]
     },
     {
+      "Route": "Images/RoomImages/Villa/5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "555492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 14:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/5b5b204d-027c-4fe4-b645-dca7ee81fef0.lh630ntxpr.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "555492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 14:37:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lh630ntxpr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RoomImages/Villa/5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E="
+        }
+      ]
+    },
+    {
       "Route": "Images/RoomImages/Villa/691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg",
       "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg",
       "Selectors": [],
@@ -18821,6 +19378,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-AK2LpmantU/HoZKR1+cvP7e3viQAIjhXKPcfzqEZx6g="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/7b2d8743-96b5-49cb-8c20-7c5433c4fadf.j16spjs15h.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/LbAXiKiRsre3mtszIicPyfEYyjM6jyurVGabW1aUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 14:25:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j16spjs15h"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RoomImages/Villa/7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/LbAXiKiRsre3mtszIicPyfEYyjM6jyurVGabW1aUE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "698642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l/LbAXiKiRsre3mtszIicPyfEYyjM6jyurVGabW1aUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 14:25:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l/LbAXiKiRsre3mtszIicPyfEYyjM6jyurVGabW1aUE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "555492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 18:53:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E="
+        }
+      ]
+    },
+    {
+      "Route": "Images/RoomImages/Villa/7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.lh630ntxpr.jpg",
+      "AssetFile": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "555492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 18:53:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lh630ntxpr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/RoomImages/Villa/7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mQ/3VUX1rip6zeQ5SMsWRRT8rHc43cqiGjul84Qzk0E="
         }
       ]
     },

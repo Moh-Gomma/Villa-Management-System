@@ -1,13 +1,8 @@
 ﻿using Hotel.Application.Attributes;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hotel.Domain.Entities
 {
@@ -34,7 +29,10 @@ namespace Hotel.Domain.Entities
 
         [ValidateNever]
         public IEnumerable<Amenity> VillaAmenity { get; set; }
+
         [NotMapped]
         public bool IsAvailable { get; set; } = true;
+
+
     }
 }

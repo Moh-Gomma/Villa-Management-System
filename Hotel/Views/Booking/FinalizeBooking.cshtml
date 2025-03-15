@@ -16,7 +16,7 @@
                 <div class="row g-3">
                     <div class="col-md-6">
                         <div class="form-floating">
-                            <input type="text" class="form-control" value="@($"{Model.FirstName}")" readonly>
+                            <input type="text" class="form-control" value="@($"{Model.FirstName} {Model.LastName}")" readonly>
                             <label class="text-muted">Name</label>
                         </div>
                     </div>
@@ -26,7 +26,6 @@
                             <label class="text-muted">Email</label>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -34,8 +33,9 @@
             <div class="row g-0">
                 <!-- Villa Image -->
                 <div class="col-md-5">
-                    <img src="@Model.Villa.ImageUrl" class="img-fluid rounded-start h-100 object-fit-cover"
-                         alt="@Model.Villa.Name" onerror="this.src='https://placehold.co/600x400/EEE/31343C';">
+                    <img src="@(string.IsNullOrEmpty(Model.Villa.ImageUrl) ? "https://placehold.co/600x400/EEE/31343C" : Model.Villa.ImageUrl)"
+                         class="img-fluid rounded-start h-100 object-fit-cover"
+                         alt="@Model.Villa.Name">
                 </div>
                 <!-- Booking Details -->
                 <div class="col-md-7">
@@ -81,7 +81,7 @@
                         <!-- Total Cost -->
                         <div class="alert alert-info d-flex justify-content-between align-items-center">
                             <span class="fw-semibold">Total Cost:</span>
-                            <h3 class="mb-0 text-info">$@(Model.Villa.Price * Model.Nights)</h3>
+                            <h3 class="mb-0 text-info">$@(Model.TotalCost.ToString("F2"))</h3>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,6 @@
 
     <!-- Form for Submission -->
     <form asp-action="FinalizeBooking" method="post" class="mt-4">
-
         <input type="hidden" asp-for="VillaId" />
         <input type="hidden" asp-for="UserId" />
         <input type="hidden" asp-for="CheckInDate" />
@@ -130,8 +129,6 @@
     </form>
 </div>
 
-<!-- Bootstrap Icons -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

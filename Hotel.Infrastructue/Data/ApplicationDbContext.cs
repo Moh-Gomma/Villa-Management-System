@@ -56,7 +56,7 @@ namespace Hotel.Infrastructue.Data
                 new VillaNumber
                 {
                     Villa_Number = 104,
-                    villaId = 3
+                    villaId = 2
                 });
 
             modelBuilder.Entity<Amenity>().HasData(
@@ -79,16 +79,16 @@ namespace Hotel.Infrastructue.Data
                     Id = 3,
                     Name = "Air Conditioning",
                     Description = "Central cooling system",
-                    VillaId = 3
+                    VillaId = 2
                 },
                 new Amenity
                 {
                     Id = 4,
                     Name = "Gym",
                     Description = "Fully equipped fitness center",
-                    VillaId = 3
+                    VillaId = 2
                 });
-    }
+        }
 }
 
 }

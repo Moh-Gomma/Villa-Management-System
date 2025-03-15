@@ -84,22 +84,12 @@
                             <label asp-for="PhoneNumber" class="form-label fw-medium">Phone Number</label>
                             <div class="input-group">
                                 <span class="input-group-text bg-light border-end-0"><i class="bi bi-telephone text-muted"></i></span>
-                                <input asp-for="PhoneNumber" class="form-control rounded-end" />
+                                <input asp-for="PhoneNumber" class="form-control rounded-end" placeholder="(Optional)"/>
                             </div>
                             <span asp-validation-for="PhoneNumber" class="text-danger small mt-1 d-block"></span>
                         </div>
 
-                        <!-- Role Dropdown (if applicable) -->
-@*                         @if (Model.RoleList != null && Model.RoleList.Any())
-                        {
-                            <div class="mb-4 position-relative">
-                                <label asp-for="Role" class="form-label fw-medium">Role</label>
-                                <select asp-for="Role" class="form-select" asp-items="Model.RoleList">
-                                    <option value="">Select a role</option>
-                                </select>
-                                <span asp-validation-for="Role" class="text-danger small mt-1 d-block"></span>
-                            </div>
-                        } *@
+
 
                         <!-- Submit Button -->
                         <button type="submit" class="btn btn-primary w-100 py-2 mb-3 fw-bold">Register</button>

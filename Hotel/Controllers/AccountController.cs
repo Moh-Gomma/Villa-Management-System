@@ -176,6 +176,11 @@ namespace Hotel.Web.Controllers
             {
                 return NotFound("User Not Found");
             }
+            var bookings = _unitOfWork.Booking.GetAll(b => b.UserId == userId, includeProperties: "Villa")
+                    .OrderByDescending(b => b.BookingDate)
+                     .Take(3)
+                        .ToList();
+            ViewBag.Bookings = bookings;
             return View(user);
         }
         [Authorize]
@@ -215,6 +220,11 @@ namespace Hotel.Web.Controllers
 
 
             }
+            var bookings = _unitOfWork.Booking.GetAll(b => b.UserId == _userManager.GetUserId(User), includeProperties: "Villa")
+                  .OrderByDescending(b => b.BookingDate)
+                  .Take(3)
+                  .ToList();
+            ViewBag.Bookings = bookings;
             return View(model);
         }
 

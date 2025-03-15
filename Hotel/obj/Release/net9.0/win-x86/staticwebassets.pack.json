@@ -1,0 +1,445 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\obj\\Release\\net9.0\\win-x86\\scopedcss\\projectbundle\\Hotel.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Hotel.Web.9xyj8gb8ju.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\6325257.jpg",
+      "PackagePath": "staticwebassets\\Images\\6325257.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Animation.gif",
+      "PackagePath": "staticwebassets\\Images\\Animation.gif"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\003615d7-ddf2-4a05-9313-d7c3376d40a4.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\003615d7-ddf2-4a05-9313-d7c3376d40a4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\18ef6915-856a-40e3-b811-9c6ecc86af8d.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\18ef6915-856a-40e3-b811-9c6ecc86af8d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\1fc010f2-d85b-47bb-8ab8-43868bab8b5b.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\1fc010f2-d85b-47bb-8ab8-43868bab8b5b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\35fb24fc-8abc-44f9-b0aa-4393e63e5a18.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\35fb24fc-8abc-44f9-b0aa-4393e63e5a18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\377e8720-3fc1-43ee-9b5a-c3d0f11d64b6.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\377e8720-3fc1-43ee-9b5a-c3d0f11d64b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\416ecd72-1aa8-4634-9fc1-3b52438febf7.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\416ecd72-1aa8-4634-9fc1-3b52438febf7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\4b87bb5b-ecff-4ecd-8812-9c19e99373fa.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\4b87bb5b-ecff-4ecd-8812-9c19e99373fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\6f060067-1c4b-4c88-b819-e40d61f2a92e.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\6f060067-1c4b-4c88-b819-e40d61f2a92e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\95cc2198-8d7f-42c5-b694-8c6d5dac794e.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\95cc2198-8d7f-42c5-b694-8c6d5dac794e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\ab91e9fa-cfaf-4e2f-90d3-c00460d26dbc.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\ab91e9fa-cfaf-4e2f-90d3-c00460d26dbc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\b01eecaf-6be1-41a9-8647-b46591231bad.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\b01eecaf-6be1-41a9-8647-b46591231bad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\b9664a1f-2d09-48c0-a9b1-b34d52ffbc35.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\b9664a1f-2d09-48c0-a9b1-b34d52ffbc35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\ca5e1782-45e9-451c-9763-f93b6ffd8431.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\ca5e1782-45e9-451c-9763-f93b6ffd8431.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\cbd9e45c-3de5-4fbd-9e3c-437c874c26f7.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\cbd9e45c-3de5-4fbd-9e3c-437c874c26f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\d366b185-92cd-42c1-a6e9-1f3994dce15a.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\d366b185-92cd-42c1-a6e9-1f3994dce15a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\d38d9772-8b1e-432b-b1d5-fbf87615277d.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\d38d9772-8b1e-432b-b1d5-fbf87615277d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\f26d1c8d-bc3f-44db-a647-6caf27032894.png",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\f26d1c8d-bc3f-44db-a647-6caf27032894.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\f2d59c1e-5bb2-4ffc-abe8-265cc27ac507.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\f2d59c1e-5bb2-4ffc-abe8-265cc27ac507.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\f2f0c02b-f4d7-48f6-8081-60ff1dac1df2.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\f2f0c02b-f4d7-48f6-8081-60ff1dac1df2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Sliders\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sliders\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Sliders\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sliders\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\css\\LoginForm.css",
+      "PackagePath": "staticwebassets\\css\\LoginForm.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\css\\admin-layout.css",
+      "PackagePath": "staticwebassets\\css\\admin-layout.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\js\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\win-x86\\staticwebassets\\msbuild.Hotel.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\win-x86\\staticwebassets\\msbuild.Hotel.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\win-x86\\staticwebassets\\msbuild.build.Hotel.Web.props",
+      "PackagePath": "build\\Hotel.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.Hotel.Web.props",
+      "PackagePath": "buildMultiTargeting\\Hotel.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.Hotel.Web.props",
+      "PackagePath": "buildTransitive\\Hotel.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

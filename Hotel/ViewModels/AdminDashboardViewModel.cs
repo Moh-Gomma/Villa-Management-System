@@ -1,4 +1,6 @@
-﻿namespace Hotel.Web.ViewModels
+﻿using Hotel.Domain.Entities;
+
+namespace Hotel.Web.ViewModels
 {
     public class AdminDashboardViewModel
     {
@@ -8,6 +10,7 @@
         public int ConfirmedBookings { get; set; }
         public List<int> BookingTrends { get; set; }
         public List<string> BookingTrendLabels { get; set; }
+        public List<Booking> Bookings { get; set; } 
 
 
     }

@@ -1,6 +1,5 @@
 ﻿@model HomeVM
 
-
 @foreach (var villa in Model.VillaList)
 {
     <div class="col-md-6 col-lg-4">
@@ -9,7 +8,7 @@
                  class="card-img-top rounded-top" alt="@villa.Name" style="height: 200px; object-fit: cover;">
             <div class="card-body">
                 <h5 class="card-title text-primary fw-bold">@villa.Name</h5>
-                <p class="card-text text-muted">@villa.Description?.Substring(0, Math.Min(villa.Description.Length, 100))@(villa.Description?.Length > 100 ? "..." : "")</p>
+                <p class="card-text text-muted">@(villa.Description?.Substring(0, Math.Min(villa.Description?.Length ?? 0, 100)) ?? "")@(villa.Description?.Length > 100 ? "..." : "")</p>
                 <ul class="list-unstyled">
                     <li><i class="bi bi-rulers me-2"></i>@villa.Sqft sqft</li>
                     <li><i class="bi bi-person me-2"></i>@villa.Occupancy guests</li>
@@ -38,7 +37,7 @@
                 <button type="button" class="btn btn-outline-primary rounded-pill w-50" data-bs-toggle="modal" data-bs-target="#detailsModal-@villa.Id">
                     <i class="bi bi-eye me-2"></i>Details
                 </button>
-                @if (Model.IsAvailabilityChecked && Model.CheckInDate >= DateTime.Now) // Added condition
+                @if (Model.IsAvailabilityChecked && Model.CheckInDate >= DateTime.Now)
                 {
                     if (villa.IsAvailable)
                     {
@@ -104,7 +103,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        @if (Model.IsAvailabilityChecked && Model.CheckInDate >= DateTime.Now) // Added condition
+                        @if (Model.IsAvailabilityChecked && Model.CheckInDate >= DateTime.Now)
                         {
                             if (villa.IsAvailable)
                             {

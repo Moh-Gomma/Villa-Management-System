@@ -68,14 +68,14 @@ namespace Hotel.Infrastructue.Migrations
                             Id = 3,
                             Description = "Central cooling system",
                             Name = "Air Conditioning",
-                            VillaId = 3
+                            VillaId = 2
                         },
                         new
                         {
                             Id = 4,
                             Description = "Fully equipped fitness center",
                             Name = "Gym",
-                            VillaId = 3
+                            VillaId = 2
                         });
                 });
 
@@ -168,11 +168,11 @@ namespace Hotel.Infrastructue.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateOnly>("ActualCheckInDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("ActualCheckInDate")
+                        .HasColumnType("datetime2");
 
-                    b.Property<DateOnly>("ActualCheckOutDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("ActualCheckOutDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("BookingDate")
                         .HasColumnType("datetime2");
@@ -336,7 +336,7 @@ namespace Hotel.Infrastructue.Migrations
                         new
                         {
                             Villa_Number = 104,
-                            villaId = 3
+                            villaId = 2
                         });
                 });
 

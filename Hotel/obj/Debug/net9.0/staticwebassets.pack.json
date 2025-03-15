@@ -13,12 +13,32 @@
       "PackagePath": "staticwebassets\\Images\\Animation.gif"
     },
     {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\Favicon\\favicon.ico"
+    },
+    {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\Logo.jpg",
       "PackagePath": "staticwebassets\\Images\\Logo.jpg"
     },
     {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\003615d7-ddf2-4a05-9313-d7c3376d40a4.jpg",
       "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\003615d7-ddf2-4a05-9313-d7c3376d40a4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\139ee75e-2796-466f-9751-13b4aeb98702.jpg"
     },
     {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\18ef6915-856a-40e3-b811-9c6ecc86af8d.jpg",
@@ -45,12 +65,24 @@
       "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\4b87bb5b-ecff-4ecd-8812-9c19e99373fa.jpg"
     },
     {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\5b5b204d-027c-4fe4-b645-dca7ee81fef0.jpg"
+    },
+    {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg",
       "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\691dda7c-6b0f-4cd4-a6f9-4a798654e9d1.jpg"
     },
     {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\6f060067-1c4b-4c88-b819-e40d61f2a92e.jpg",
       "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\6f060067-1c4b-4c88-b819-e40d61f2a92e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\7b2d8743-96b5-49cb-8c20-7c5433c4fadf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg",
+      "PackagePath": "staticwebassets\\Images\\RoomImages\\Villa\\7eb2a536-0dfc-4d81-bab2-d4999ffbe2c2.jpg"
     },
     {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\Images\\RoomImages\\Villa\\95cc2198-8d7f-42c5-b694-8c6d5dac794e.jpg",
@@ -131,10 +163,6 @@
     {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "C:\\Users\\moham\\source\\repos\\Hotel-Project\\Hotel\\wwwroot\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
