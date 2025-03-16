@@ -33,21 +33,7 @@ Check out this video to see the system in action:
 
 ## Project Structure
 
-Hotel/
-├── Hotel.Web/                   # ASP.NET Core Web Application
-│   ├── Controllers/            # MVC Controllers (e.g., AccountController, BookingController)
-│   ├── Views/                  # Razor Views (e.g., Setting.cshtml, BookingHistory.cshtml)
-│   ├── wwwroot/                # Static files (CSS, JS, images, favicon)
-│   │   ├── favicon.ico         # Favicon for browser tab
-│   │   ├── images/             # Images for villas, sliders, and logo
-│   │   ├── css/                # Custom CSS files
-│   │   └── js/                 # Custom JavaScript files
-│   ├── Program.cs              # Application startup and middleware configuration
-│   └── appsettings.json        # Configuration settings (database, Stripe, etc.)
-├── Hotel.Application/           # Application logic and interfaces
-├── Hotel.Domain/                # Domain entities (e.g., Villa, Booking, ApplicationUser)
-├── Hotel.Infrastructure/        # Data access layer (EF Core, repositories)
-└── README.md                    # Project documentation
+![Alt text]([https://example.com/path/to/image.png](https://raw.githubusercontent.com/Moh-Gomma/Villa-Management-System/refs/heads/main/Hotel/wwwroot/Images/2025-03-16%2002_17_42-Window.png))
 
 ### Details of Future Plans
 
