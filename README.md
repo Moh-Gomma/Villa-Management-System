@@ -33,7 +33,7 @@ Check out this video to see the system in action:
 
 ## Project Structure
 
-![Alt text]([https://example.com/path/to/image.png](https://raw.githubusercontent.com/Moh-Gomma/Villa-Management-System/refs/heads/main/Hotel/wwwroot/Images/2025-03-16%2002_17_42-Window.png))
+![Alt text](https://raw.githubusercontent.com/Moh-Gomma/Villa-Management-System/refs/heads/main/Hotel/wwwroot/Images/2025-03-16%2002_17_42-Window.png)
 
 ### Details of Future Plans
 
